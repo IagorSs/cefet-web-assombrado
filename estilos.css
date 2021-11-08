@@ -275,3 +275,32 @@ footer .logo-rodape {
   content: "Novidade!";
   font-weight: bold;
 }
+
+.boo {
+  position: fixed;
+
+  width: 40px;
+  height: 40px;
+
+  opacity: 0.05;
+  transition: 0.2s linear;
+}
+
+.boo#ghost-1 {
+  top: 20vh;
+  left: 20vw;
+}
+
+.boo#ghost-2 {
+  top: 50vh;
+  left: 60vw;
+}
+
+.boo#ghost-3 {
+  top: 90vh;
+  left: 70vw;
+}
+
+.boo:hover {
+  opacity: 1;
+}
