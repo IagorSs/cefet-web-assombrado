@@ -159,6 +159,13 @@ main {
   background-color: orange;
   color: white;
   text-shadow: 1px 1px black;
+
+  position: relative;
+}
+
+#tags span:active {
+  bottom: 2px;
+  right: 2px;
 }
 
 .tag-2 {
