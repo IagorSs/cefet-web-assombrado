@@ -49,8 +49,12 @@ body > header {
   text-align: center;
 }
 
-body > header ul {
+body > header nav ul {
   background-color: rgba(0, 204, 147, 0.53);
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
 
 body > header a {
@@ -58,8 +62,9 @@ body > header a {
   text-shadow: 1px 1px black;
 }
 
-body > header nav ul {
-  margin-bottom: 0;
+body > header nav ul,
+body > header nav a {
+  padding: 0.8em;
 }
 
 /* --- Conteúdo principal da página --- */
