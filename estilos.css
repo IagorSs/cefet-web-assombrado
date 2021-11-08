@@ -114,7 +114,8 @@ main {
   margin-bottom: 1em;
 }
 
-#ultimas-postagens article .data-horario {
+#ultimas-postagens article .data-horario,
+.novidade::before {
   background-color: white;
   color: #333;
   border: 1px solid black;
@@ -252,4 +253,9 @@ footer .logo-rodape {
   color: black;
   border-color: currentColor;
   box-shadow: none;
+}
+
+.novidade::before {
+  content: "Novidade!";
+  font-weight: bold;
 }
