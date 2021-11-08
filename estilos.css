@@ -182,6 +182,10 @@ main {
   position: relative;
 }
 
+#tags span:hover {
+  cursor: pointer;
+}
+
 #tags span:active {
   bottom: 2px;
   right: 2px;
